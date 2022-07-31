@@ -10,6 +10,7 @@ public class Pevec3 extends Thread {
         while (!needStop) {
             count++;
             if (count == 3) needStop = true;
+
             synchronized (Monitor.MIKROFON) {
                 try {
                     Monitor.MIKROFON.wait();

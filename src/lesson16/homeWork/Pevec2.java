@@ -11,7 +11,6 @@ public class Pevec2 extends Thread {
             count++;
             if (count == 3) needStop = true;
 
-
             synchronized (Monitor.MIKROFON) {
                 try {
                     Monitor.MIKROFON.wait();
