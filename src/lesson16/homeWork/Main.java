@@ -3,15 +3,6 @@ package lesson16.homeWork;
 import org.apache.log4j.Logger;
 
 public class Main {
-    /*
-    Создать программу как на уроке, толко уже с 3мя певцами.
-    Ведущий обьявил концерт.
-    Потом Должен спеть первый, затем второй, и третий певец .
-    Так три круга.
-    Ведущий закрыл шоу.
-    Так же подключить логирование и внести лог в файл.
-     Должен обязательно отображаться имя потока, проснулся, уснул
-     */
     private static final Logger LOGGER = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
