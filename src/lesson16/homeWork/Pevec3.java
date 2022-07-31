@@ -33,14 +33,6 @@ public class Pevec3 extends Thread {
                 Monitor.MIKROFON.notify();
             }
 
-//            synchronized (Monitor.MIKROFON) {
-//                try {
-//                    Monitor.MIKROFON.wait();
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-//
-//            }
         }
     }
 }
