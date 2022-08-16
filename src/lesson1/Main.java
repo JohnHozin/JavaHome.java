@@ -9,8 +9,8 @@ public class Main {
          * управляющая конструкция if else
          */
 
-        int a = 9;
-        int b = 9;
+        double a = 9.5;
+        double b = 9.0;
         int c = 9;
 
         if (a != b && b != c && c != a) {
