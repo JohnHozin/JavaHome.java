@@ -10,6 +10,9 @@ public class Game {
             System.out.println("Win " +p1.getTeamName());
         } else {
             System.out.println("Win " + p2.getTeamName());
+            ываыва
+                    ываыва
+                    выаывавва
         }
     }
 }
